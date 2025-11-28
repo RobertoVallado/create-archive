@@ -1,9 +1,3 @@
-
-Modifications © 2025 Roberto Vallado
-
-Original Software © 2016-2023 Martin Donath, Alex Voss
-Licensed under MIT License.
-
 # Mkdocs Blog Template
 
 This repository contains my personal **MkDocs + Material** blog and documentation template. It serves as a starting point for building a modern blog or technical documentation site using **Material for MkDocs** along with a curated set of plugins that are particularly well-suited for blogging.
@@ -36,3 +30,7 @@ This template is designed to be:
 
 Original inspiration: [Material for MkDocs – Blog Tutorials](https://squidfunk.github.io/mkdocs-material/tutorials/#blogs)
 
+>Modifications © 2025 Roberto Vallado
+
+>Original Software © 2016-2023 Martin Donath, Alex Voss
+Licensed under MIT License.
