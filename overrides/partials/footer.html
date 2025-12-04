@@ -1,0 +1,40 @@
+<footer class="custom-footer">
+  <div class="custom-footer__inner">
+      
+      <!-- Left: Custom Button -->
+      <div class="custom-footer__left">
+        <a href="https://ko-fi.com/H2H2OBC05" target="_blank" 
+          class="custom-footer__button md-button" 
+            style="background-color:#f06f52; color:white; text-decoration:none; padding:0.2rem 0.5rem; margin: 10px; border-radius:4px; font-size:0.8rem;">
+            Buy me a 🍵
+        </a>
+      </div>
+
+      <!-- Center: Copyright -->
+      <div class="custom-footer__center">
+        © &ensp;<span id="year" class="custom-footer__year"></span> &ensp;- Roberto Vallado
+      </div>
+
+      <!-- Right: Social Icons -->
+      <div class="custom-footer__right">
+        <a href="https://github.com/RobertoVallado" target="_blank" rel="noopener" class="custom-footer__icon" aria-label="Github">
+          <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/roberto-vallado/" target="_blank" rel="noopener" class="custom-footer__icon" aria-label="LinkedIn">
+          <i class="fab fa-linkedin"></i>
+        </a>
+      </div>
+  </div>
+
+  <script>
+    document.addEventListener("DOMContentLoaded", function() {
+      // Set current year
+      const yearSpan = document.getElementById("year");
+      if (yearSpan) yearSpan.textContent = new Date().getFullYear();
+
+      // Custom button click
+      const btn = document.getElementById("custom-footer-btn");
+      if (btn) btn.addEventListener("click", () => console.log("Footer button clicked!"));
+    });
+  </script>
+</footer>

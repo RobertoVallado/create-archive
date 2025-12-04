@@ -16,6 +16,6 @@ def on_page_markdown(markdown, **kwargs):
     page_title = urllib.parse.quote(page.title+'\n')
 
     return markdown + dedent(f"""
-    [Share on :simple-x:]({x_intent}?text={page_title}&url={page_url}){{ .md-button }}
-    [Share on :simple-facebook:]({fb_sharer}?u={page_url}){{ .md-button }}
+    [:simple-x:]({x_intent}?text={page_title}&url={page_url}){{ .md-button .icon-only }}
+    [:simple-facebook:]({fb_sharer}?u={page_url}){{ .md-button .icon-only }}
     """)

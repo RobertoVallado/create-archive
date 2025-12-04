@@ -1,36 +1,51 @@
 site_name: Security Blog
-site_description: Source of insight, pointers on cybersecurity and clean code practices. 
+site_description: >-
+  Source of insight, pointers on cybersecurity and clean code practices. 
 site_url: https://www.robertovallado.dev/
+site_author: Roberto Vallado
 
 nav:
-  - About: index.md
+  - Home: index.md
+  - About: about.md
   - Tags: tags.md
   - Blog:
      - blog/index.md
 
 theme:
   name: material
+  custom_dir: overrides
+
   features:
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.tracking
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
+    - navigation.top
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
 
   logo: assets/images/code-white.png
-  favicon: assets/images/skull.ico
+  favicon: assets/images/code.ico
   language: en 
-
   font:
     text: Arial
     code: Roboto Mono
+
   palette:
     - scheme: slate        # Light mode
-      primary: indigo
+      primary: black
       accent: deep-purple
       toggle:
         icon: material/weather-sunny
         name: Dark mode
     - scheme: default          # Dark mode
-      primary: indigo
+      primary: black
       accent: deep-purple
       toggle:
         icon: material/weather-night
@@ -67,33 +82,40 @@ extra:
     - name: English
       link: /
       lang: en
-    - name: Français
-      link: /fr/
-      lang: fr
-    - name: Español
-      link: /es/
-      lang: es
+    # - name: Français
+    #   link: /fr/
+    #   lang: fr
+    # - name: Español
+    #   link: /es/
+    #   lang: es
 
-  social:
-    - icon: fontawesome/brands/github
-      name: Github
-      link: https://github.com/RobertoVallado
+#   social:
+#     - icon: fontawesome/brands/github
+#       name: Github
+#       link: https://github.com/RobertoVallado
 
-    - icon: fontawesome/brands/linkedin
-      name: LinkedIn
-      link: https://www.linkedin.com/in/roberto-vallado/
+#     - icon: fontawesome/brands/linkedin
+#       name: LinkedIn
+#       link: https://www.linkedin.com/in/roberto-vallado/
 
-  generator: false  # hides the “Made with Material for MkDocs” text
-copyright: © <span id="year"></span> - Roberto Vallado's Security Blog.
+#   generator: false  # hides the “Made with Material for MkDocs” text
+# copyright: © <span id="year"></span> - Roberto Vallado's Security Blog.
+
+extra_css:
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css
+  - stylesheets/styles.css
+  - stylesheets/home-background.css
 
 extra_javascript:
   - assets/js/footer-year.js
 
 hooks:
   - hooks/socialmedia.py
-  # TODO REVIEW
+
 markdown_extensions:
   - attr_list
   # Allows adding classes, IDs, or other attributes to Markdown elements
-  - pymdownx.emoji
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   # Enables emoji shortcodes to render as actual emoji icons
