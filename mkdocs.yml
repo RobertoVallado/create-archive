@@ -6,13 +6,16 @@ site_author: Roberto Vallado
 
 nav:
   - Home: index.md
-  - About: about.md
-  - Tags: tags.md
+  - about.md
   - Blog:
-     - blog/index.md
+      - All Posts: blog/index.md
+      - Tags: blog/tags.md
+      - Authors:
+          - Roberto Vallado: blog/author/robertovallado.md
 
 theme:
   name: material
+  language: en 
   custom_dir: overrides
 
   features:
@@ -21,7 +24,6 @@ theme:
     - navigation.instant.preview
     - navigation.tracking
     - navigation.tabs
-    - navigation.tabs.sticky
     - navigation.sections
     - navigation.expand
     - navigation.top
@@ -32,7 +34,6 @@ theme:
 
   logo: assets/images/code-white.png
   favicon: assets/images/code.ico
-  language: en 
   font:
     text: Arial
     code: Roboto Mono
@@ -77,17 +78,34 @@ plugins:
         as_creation: date.created
         as_update: date.updated
 
+  - i18n:
+      docs_structure: folder
+      default_language: en
+      languages:
+        - locale: en
+          name: English
+          default: true
+          build: true
+        - locale: fr
+          name: Français
+          default: false
+          build: true
+        - locale: es
+          name: Español
+          default: false
+          build: true
+
 extra:
-  alternate:
-    - name: English
+  languages:
+    en:
+      name: English
       link: /
-      lang: en
-    # - name: Français
-    #   link: /fr/
-    #   lang: fr
-    # - name: Español
-    #   link: /es/
-    #   lang: es
+    fr:
+      name: Français
+      link: /fr/
+    es:
+      name: Español
+      link: /es/
 
 #   social:
 #     - icon: fontawesome/brands/github

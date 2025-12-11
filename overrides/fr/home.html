@@ -1,0 +1,24 @@
+{% extends "main.html" %}
+    {% block content %}
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <blockquote class="hero__quote">
+            <!-- <p>Je dois tout dire dans une langue qui n'est pas celle de ma mère. C'est ça le voyage.</p>
+            <p class="hero__author">— Dany Laferrière</p> -->
+        <section aria-labelledby="about-heading">
+            <p>Ce site ne contient aucun contenu généré par l’IA (sauf pour la correction grammaticale).</p>
+            <p>C’est mon blog et archive de recherche, m’aidant à rassembler des informations pertinentes et à suivre l’évolution de mon apprentissage.</p>
+            <blockquote>
+            <p>Idées et conseils recherche sur la sécurité applicative et les bonnes pratiques de clean code par <strong>Roberto Vallado</strong>.</p>
+            </blockquote>
+        </section>
+        </blockquote>
+    </section>
+
+    <!-- PAGE CONTENT -->
+    <div class="md-content">
+        {{ page.content }}
+    </div>
+
+    {% endblock %}
