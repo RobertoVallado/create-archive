@@ -1,4 +1,4 @@
-# Mkdocs Blog Template
+# Mkdocs Knowledgebase/Jouranl Blog Template
 
 This repository contains my personal **MkDocs + Material** blog and documentation template. It serves as a starting point for building a modern blog or technical documentation site using **Material for MkDocs** along with a curated set of plugins that are particularly well-suited for blogging.
 
