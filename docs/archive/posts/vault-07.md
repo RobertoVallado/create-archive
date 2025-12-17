@@ -22,6 +22,8 @@ Starting teaching at college has been very rewarding; however, I still long for 
 
 >Summon evil hell minions like a pro with Bash scripting!
 
+<!-- more -->
+
 Bash scripting is an essential component of system administration, automation, and computational workflows, all operating within the command-line interface domain. In this context, a "shell" serves as a mediator between the user and the underlying operating system, providing an intermediary platform or interface for interaction.
 
 ### The Darks-Arts & its Usage

@@ -21,6 +21,8 @@ I recently started a brief project involving docker containers and their "networ
 
 Installing a program on Linux may be challenging, but overall, it is easy.
 
+<!-- more -->
+
 This is typically done through the package manager specific to the distro. Here, I list instructions from a few popular Linux distros.
 
 <script src="https://gist.github.com/RobertoVallado/7cfa17f582bf3a2cff19e21e2cb564a3.js"></script>

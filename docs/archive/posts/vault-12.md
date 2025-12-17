@@ -20,6 +20,8 @@ slug: balance-beyond-grind
 
 Ouff, it’s been a while since the last time I wrote anything. I will begin by saying that teaching at college has been challenging, rewarding, but also time-consuming. As I prepared a class a month away from the finish line, I realized I have been spending my weekends entirely doing research, preparing schoolwork, and grading assignments; I have stopped doing the things that I enjoy doing. This brings me to contemplate life from a different angle.  
 
+<!-- more -->
+
 I consider myself a well-organized individual who takes pride in how I invest my time. I love to lay out my week on Sundays as I try to be my most productive self; but lately I feel I have to drag my feet to find time to do the things I need to do. I have stopped hacking and working on my personal projects on the weekends—all for a little extra cash. Today’s culture asks us to be this way, I blame, but I’m not sure if it is that or just me trying to find a culprit for my low levels of motivation.  
 
 Things are going to accumulate, and we might not feel the same way every day—I get that—but I feel I have been trying to pour little drops of me into multiple cups, leaving little for myself on the weekends. Do I need to rest more? I don’t want to. I have work to do.  

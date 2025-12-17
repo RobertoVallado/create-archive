@@ -5,19 +5,14 @@ date:
 readtime: 15
 pin: true
 links:
-  # - Homepage: index.md#project-layout
-  - Blog index: blog/index.md
-  - External links:
-    - Material documentation: https://squidfunk.github.io/mkdocs-material
+  - AEC Index: aec/index.md
 categories:
-  - Technical Interview Topics
+  - AEC
 tags:
-  - new year
-  - hogmanay
-  - festive season
+  - sample
 authors:
   - robertovallado
-slug: ny-eve
+slug: aec-sample
 ---
 
 # Happy new years eve!

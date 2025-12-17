@@ -17,7 +17,7 @@ slug: avoid-idor-bugs-part-ii
 
 # Avoid IDOR bugs PART II
 
-## Developer Responsibility and Security Awareness
+>Developer Responsibility and Security Awareness
 
 As developers, we are responsible for the following:
 
@@ -28,6 +28,8 @@ As developers, we are responsible for the following:
 But we are only human, despite what many might think. We make mistakes, and those mistakes show up as issues during an application's usage.  
 **The dreaded bugs!**  
 We can't avoid introducing them sometimes, but we *can* reduce them with good practices.
+
+<!-- more -->
 
 ---
 

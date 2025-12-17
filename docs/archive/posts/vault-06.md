@@ -20,6 +20,7 @@ slug: balance-beyond-grind
 
 I just recently was invited to start teaching at college on the subject of Web applications for the computer programming program at the local college. I am very excited, and I want to transfer my knowledge to others and see my students grow to become professionals in the development area.
 
+<!-- more -->
 
 As I started revising the material I will be teaching, I encountered a series of questions that I, for whatever reason, have forgotten over time or never really got the curiosity to ask myself.
 

@@ -1,14 +1,12 @@
 ---
 date:
-  created: 2024-05-01
-categories:
-  - Holidays
+  created: 2024-01-01
+draft: true
 ---
 
-# Happy May Day!
+# Happy new year!
 
-Happy May Day 2024 to everyone. Wishing you all the best!
-
+Happy 2024 to everyone. Wishing you all the best!
 <!-- more -->
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod

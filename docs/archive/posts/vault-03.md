@@ -18,9 +18,11 @@ slug: stored-xss
 
 # Stored XSS
 
-## Understanding Stored Cross-Site Scripting (Stored XSS)
+**Understanding Stored Cross-Site Scripting (Stored XSS)**
 
 Recapping our previous article's dive into the world of XSS basics—covering DOM-based, stored, and reflected XSS—we’re now ready to zoom in on one particular type:
+
+<!-- more -->
 
 **Stored Cross-Site Scripting**, also known as **Persistent XSS**.
 

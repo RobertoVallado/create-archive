@@ -17,11 +17,11 @@ slug: avoid-idor-bugs-part-i
 
 # What is an IDOR vulnerability and why is important to know as a Developer
 
-## Understanding IDOR Vulnerabilities
+**Understanding IDOR Vulnerabilities**
 
 As I dive deeper into security and research, I realize that understanding the correct terminology and tools for identifying vulnerabilities is crucial. I began by studying **IDOR**, a straightforward yet impactful vulnerability.
 
----
+<!-- more -->
 
 ## What Is an IDOR Vulnerability?
 

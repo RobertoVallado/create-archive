@@ -18,9 +18,11 @@ slug: cross-site-scripting-basics
 
 # Cross-Site Scripting (XSS) - Basics and Prevention
 
-## Understanding Cross-Site Scripting (XSS)
+**Understanding Cross-Site Scripting (XSS)**
 
 Cross-Site Scripting (XSS) is a type of web security vulnerability where malicious scripts are injected into trusted websites. Hackers take advantage of web applications with poor input validation or encoding errors, which can lead to significant security risks. When a user visits the compromised site, the browser unknowingly executes the injected script, giving the attacker access to sensitive information such as cookies and session tokens.
+
+<!-- more -->
 
 There are varying degrees of complexity when it comes to exploiting XSS. The three main types are **DOM-based**, **stored**, and **reflected**. In this reflection, I focus on the fundamentals: definitions, consequences, and prevention measures.
 
