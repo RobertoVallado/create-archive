@@ -19,14 +19,14 @@ jobs:
           python-version: '3.11'
 
       - name: Install MkDocs and plugins
-          run: |
-            pip install --no-cache-dir \
-              mkdocs \
-              mkdocs-material \
-              mkdocs-mermaid2-plugin \
-              mkdocs-macros-plugin \
-              mkdocs-rss-plugin \
-              pymdown-extensions
+        run: |
+          pip install --no-cache-dir \
+            mkdocs \
+            mkdocs-material \
+            mkdocs-mermaid2-plugin \
+            mkdocs-macros-plugin \
+            mkdocs-rss-plugin \
+            pymdown-extensions
 
       - name: Build MkDocs site
         run: mkdocs build --strict
