@@ -1,13 +1,13 @@
 ---
 date:
-  created: 2024-01-01
+  created: 2026-01-05
 draft: true
 ---
 
-# Happy new year!
+# Développement d’applications sécuritaires au Cégep Limoilou!
 
-Happy 2024 to everyone. Wishing you all the best!
+Cette page est un brouillon provisoire créé dans le cadre du programme Développement d’applications sécuritaires au Cégep Limoilou.
 <!-- more -->
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-tempor incididunt ut labore et dolore magna aliqua.
+Son contenu est incomplet et susceptible d’évoluer, et sert principalement à des fins d’apprentissage et d’itération.
+La version finale sera peaufinée au fur et à mesure de l’avancement du projet et des travaux du cours.

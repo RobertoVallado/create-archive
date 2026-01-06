@@ -64,7 +64,7 @@ Ok, Roberto, cool. But now what? Well, now you have a .yml file that can compose
 
 Voilà! Dynamic containers based on repos!
 
-We, as programmers, are to solve problems or boring tasks by using all technologies at our disposal. We are shaping the current new connected world, and it is up to us to build upon other's code, always keeping security and optimal design in mind. 
+We, as programmers, are to solve problems or boring tasks by using all technologies at our disposal. We are shaping the current new connected world, and it is up to us to build on other people's code, always keeping security and optimal design in mind. 
 
 >Don't forget to have fun while doing it and share it so others may build upon your code!
 

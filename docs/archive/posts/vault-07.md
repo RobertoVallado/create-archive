@@ -24,15 +24,15 @@ Starting teaching at college has been very rewarding; however, I still long for 
 
 <!-- more -->
 
-Bash scripting is an essential component of system administration, automation, and computational workflows, all operating within the command-line interface domain. In this context, a "shell" serves as a mediator between the user and the underlying operating system, providing an intermediary platform or interface for interaction.
+Bash scripting is an essential component of system administration, automation, and computational workflows, all operating within the command-line interface domain. In this context, a "shell" serves as a mediator between the user and the operating system, providing an interface for interaction.
 
 ### The Darks-Arts & its Usage
 
-Bash scripting is primarily used to automate sequences of system commands, perform administrative tasks, or orchestrate complex computing workflows. In essence, it allows the user to encapsulate a series of operations within a single script file, which enhances efficiency and makes tasks more repeatable.
+Bash scripting is primarily used to automate sequences of system commands, perform administrative tasks and such. In essence, it allows the user to encapsulate a series of operations within a single script file, which enhances efficiency and makes tasks repeatable.
 
 ### Summon your First Bash Script
 
-The inception of one's journey into Bash scripting commences with creating a script file, often denoted by a `.sh` extension. Within this file, the user orchestrates a sequence of shell commands, leveraging Bash's syntax and constructs to facilitate logical control flow.
+The intro into Bash scripting starts with creating a script file, often denoted by a `.sh` extension. Within this file, the user orchestrates a sequence of commands, leveraging syntax and constructs to facilitate logical control flow.
 
 For instance, consider the rudimentary "Dark Spell" script:
 

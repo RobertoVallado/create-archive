@@ -23,7 +23,7 @@ slug: automation-in-the-classroom
 
 Starting as a college teacher has been very rewarding. I've found students eager to learn and their "sponge-like" minds ready to take on the world. I am honored still to have been given this opportunity; I look forward to seeing how far some of them will reach and what they will achieve in their lifetimes. 
 
-I want to give a brief of what this article is about. As I progress on article writing, I will keep it simple and explain each of the little elements or bits of separate technologies on which I will be dwelling in my write-ups.
+I want to give a brief of what this article is about. As I progress with my writing, I will keep it simple and explain each of the little elements or bits of separate technologies on which I will be dwelling in my write-ups.
 
 <!-- more -->
 

@@ -85,6 +85,15 @@ Test Result Storage: You can customize where and how the test results are stored
 
 This repository works seamlessly with [Hosting-Git-Repositories-with-Nginx.](https://github.com/RobertoVallado/Hosting-Git-Repositories-with-Nginx) It allows you to host student websites on Docker containers and then run Cypress tests on those websites. This integration simplifies the grading process, ensuring that grading is consistent and efficient.
 
+> **⚠️ Attention:** Careful notice on using Markdown  
+>
+> A **vulnerability has been found** in this repository. Due to limited time, there is currently **no active maintenance**.  
+>
+> Users are strongly encouraged to **review the related CVE-2025-15284** before using this project:  
+> [View CVE Details - CVE-2025-15284](https://github.com/advisories/GHSA-6rw7-vpxm-498p)  
+>
+> Use at your own risk and take proper precautions.
+
 
 Automating grading with Cypress and Docker saves time, ensures fairness, and simplifies educators' lives. Follow the steps in this article to set up the Automated Grading System with Cypress and personalize it to meet your grading needs. Say goodbye to manual grading and embrace the power of automation.
 

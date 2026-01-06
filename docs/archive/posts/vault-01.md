@@ -25,7 +25,7 @@ As developers, we are responsible for the following:
 - Make code that speaks for itself. *(AKA: no comments)*  
 - Name things properly — **variables good, vague names bad.**
 
-But we are only human, despite what many might think. We make mistakes, and those mistakes show up as issues during an application's usage.  
+But we are only human; despite what many might think, we all make mistakes. Those mistakes show up as issues during an application's usage.  
 **The dreaded bugs!**  
 We can't avoid introducing them sometimes, but we *can* reduce them with good practices.
 
@@ -42,6 +42,7 @@ When interacting with databases or file systems, use **parameterized queries** a
 They help prevent injection vulnerabilities, which can indirectly lead to IDOR and similar issues.
 
 ### Context-Based Authorization
+
 Consider the **context** of the user’s actions.  
 Validate whether the request matches the user's role or privileges.
 
@@ -61,6 +62,7 @@ Conduct regular:
 Ask questions, take initiative, and bring security concerns to the table.
 
 ### Error Handling
+
 Use helpful but **non-revealing** error messages.  
 Attackers love detailed errors; keep them general.
 
@@ -84,7 +86,6 @@ Our job is to **identify and contain them early** in the application lifecycle.
 
 - Yaworski, P. (2019). *Real-World Bug Hunting: A Field Guide to Web Hacking*. No Starch Press.  
 - Kohnfelder, Loren. (2022). *Designing Secure Software: A Guide for Developers*. No Starch Press.
-
 
 
 #

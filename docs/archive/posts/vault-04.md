@@ -17,9 +17,9 @@ slug: installing-docker-engine-for-linux
 
 # Installing Docker engine for Linux distributions
 
-I recently started a brief project involving docker containers and their "network" capabilities. It is exciting to delve into the topic, and I decided to share the steps where I find I've needed help to maybe aid others in my position. So, to start this set of articles, we will do it from the beginning. Installing Docker on our Linux distro of preference.
+I recently started a project involving docker containers and their "network" capabilities. It is exciting to play with it, and I decided to share the steps where I find I've needed help to maybe aid others in my position. So, to start this set of articles, we will do it from the beginning. 
 
-Installing a program on Linux may be challenging, but overall, it is easy.
+Installing Docker on our Linux distro of preference.
 
 <!-- more -->
 

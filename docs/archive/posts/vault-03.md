@@ -20,13 +20,13 @@ slug: stored-xss
 
 **Understanding Stored Cross-Site Scripting (Stored XSS)**
 
-Recapping our previous article's dive into the world of XSS basics—covering DOM-based, stored, and reflected XSS—we’re now ready to zoom in on one particular type:
+Recapping the previous article into the world of XSS basics—covering DOM-based, stored, and reflected XSS—we’re now ready to zoom in on one particular type:
 
 <!-- more -->
 
 **Stored Cross-Site Scripting**, also known as **Persistent XSS**.
 
-Don’t worry if the name sounds daunting—this article breaks it down into simple, developer-friendly ideas. Think of it as a puzzle: we’ll assemble each piece of Stored XSS, explain what it means, and walk through a real-life example to make everything crystal clear.
+Don’t worry if the name sounds daunting—this article breaks it down into simple, developer-friendly ideas. Think of it as a puzzle: we’ll assemble each piece, explain what it means, and walk through a real-life example to make everything clear.
 
 ---
 
@@ -51,7 +51,7 @@ Common consequences include:
 The attacker identifies a vulnerable input field—one that accepts user input **without proper sanitization**.  
 These fields often store user-generated content that will be shown to other users.
 
-*In good development practices, this is called **“No Bueno.”***
+*In development practices, this is called **“No Bueno.”***
 
 ---
 
@@ -62,7 +62,7 @@ Before continuing, imagine the attacker asking:
 
 > “What can I inject here that will cause the most harm when another user loads this page?”
 
-As researchers and developers, it is essential that we can answer this question, too.
+As researchers (...and developers), it is essential that we can answer this question, too.
 
 Common malicious outcomes include:
 
@@ -104,8 +104,6 @@ The attacker may gain control over the victim’s session, allowing them to impe
 
 ## Example: Stored XSS Case Study
 
-Let’s jump straight into our example.
-
 On **January 25, 2019**, a user named **giddsec** submitted a report, which was later disclosed by HackerOne on **April 1** of the same year.  
 The vulnerability was identified on **X (formerly Twitter)** and could potentially lead to **data theft in network reports** of users.
 
@@ -137,10 +135,6 @@ It certainly did for me, as it allowed me to better understand and categorize th
 - As **users**, we should stay aware and practice safe habits online.  
 - As **developers**, we must avoid insecure coding practices that enable Stored XSS.  
 - As **hackers**, we continue learning and uncovering flaws that help improve security overall.
-
-I’ll continue the **XSS saga**, as it's the current topic I’m exploring.
-
-**Happy bug-hunting!**
 
 ---
 

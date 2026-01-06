@@ -151,6 +151,9 @@ plugins:
         as_creation: date
         as_update: date_updated
 
+draft_docs: |
+  drafts/ 
+
 #   social:
 #     - icon: fontawesome/brands/github
 #       name: Github

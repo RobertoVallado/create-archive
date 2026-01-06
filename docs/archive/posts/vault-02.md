@@ -51,7 +51,9 @@ XSS can exploit browser vulnerabilities, causing crashes or other unintended beh
 
 ## Preventing XSS as a User
 
-I now have a clearer understanding of how XSS scenarios unfold and what they look like in real environments. But for many users, recognizing the signs of exposure or compromise isn't easy. Here are some indicators and steps to stay safe:
+I have a better understanding of how XSS scenarios happened and what they look like irl. But for many normies, recognizing signs of exposure or compromise ain't easy.
+
+>Indicators and steps to stay safe:
 
 ### **Educate Yourself About Phishing Tactics**
 Learn how phishing attacks work and recognize the tricks attackers use.  
@@ -67,32 +69,32 @@ Always verify the URL before entering sensitive information. Phishing pages ofte
 
 ## Preventing XSS as a Developer
 
-To prevent XSS vulnerabilities, developers must adopt secure coding practices and avoid dangerous patterns. But what does that actually mean?
+To prevent XSS vulnerabilities, developers must adopt secure coding practices and avoid dangerous patterns. 
+
+>But what does that actually mean?
 
 ### **Input Validation**
 Validate and sanitize *anything* coming from the user.  
 Treat every user as a potential attacker.
 
-Plenty of libraries and frameworks already offer reliable input validation—just take a little time to choose what best fits your project.
+Many libraries and frameworks already offer reliable input validation—just take a little time to choose what best fits your project.
 
 ### **Output Encoding**
 Encode dynamic content before displaying it in the browser to prevent unintended script execution.
 
 If code reaches the browser, the browser will try to run it. Avoid sending executable content unless it is safe.
 
-Again, many frameworks help with this by design—**use them**.
+Again, many frameworks help with this by design—**use it**.
 
 ---
 
 ## Conclusion
 
-Cross-Site Scripting (XSS) is a dangerous web vulnerability that enables attackers to inject malicious scripts into applications, often with severe consequences.
+Cross-Site Scripting (XSS) is a dangerous web vulnerability that enables attackers to inject malicious scripts into applications.
 
 As users, we can take simple steps to reduce our risk. As developers, we have an even greater responsibility to protect the people who trust our applications.
 
 I will continue the XSS saga, as it is the topic I'm currently exploring.
-
-**Happy bug-hunting!**
 
 ---
 

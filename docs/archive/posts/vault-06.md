@@ -18,7 +18,7 @@ slug: balance-beyond-grind
 
 # Forking and Cloning Demystified: Understanding the Key Differences
 
-I just recently was invited to start teaching at college on the subject of Web applications for the computer programming program at the local college. I am very excited, and I want to transfer my knowledge to others and see my students grow to become professionals in the development area.
+I just recently was invited to start teaching at college on the subject of Web applications for the computer programming program at the local college. I am very excited, and I want to transfer my knowledge to others and see students grow to become professionals in the development area.
 
 <!-- more -->
 
@@ -26,11 +26,11 @@ As I started revising the material I will be teaching, I encountered a series of
 
 I hope as I start teaching the basics of software development and applications, I also learn myself and reinforce my basic foundation knowledge.
 
-Based on this initial 'commit', I took on Source control and basic concepts.
+Based on this initial 'commit'🥁, I took on Source control and basic concepts.
 
 ## Forking and Cloning!
 
-Forking and Cloning are two distinct actions used in version control systems such as Git, which are typically hosted on platforms like GitHub, GitLab, or Bitbucket. Here's how they differ:
+Forking and Cloning are two distinct actions used in the Git version control system, which are typically hosted on platforms like GitHub, GitLab, or Bitbucket. Here's how they differ:
 
 ### Cloning a Repository:
 

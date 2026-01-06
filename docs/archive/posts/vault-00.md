@@ -19,7 +19,7 @@ slug: avoid-idor-bugs-part-i
 
 **Understanding IDOR Vulnerabilities**
 
-As I dive deeper into security and research, I realize that understanding the correct terminology and tools for identifying vulnerabilities is crucial. I began by studying **IDOR**, a straightforward yet impactful vulnerability.
+As I research deeper, I realize that understanding the correct terminology and tools for identifying vulnerabilities is very important. I began by studying **IDOR**, a straightforward yet impactful vulnerability.
 
 <!-- more -->
 
@@ -44,7 +44,7 @@ The logic behind roles, groups, and permissions can become complex when writing 
 
 > *"We don't know what we don't know."*
 
-As developers, this lack of awareness affects us all. We must adopt and follow security standards, but doing so is not the responsibility of a single senior developer.
+As developers, this lack of awareness affects us all. We must follow security standards, but doing so is not the responsibility of a single developer.
 
 Especially in modern **AGILE environments**, where functional code often takes priority over documentation, standards are a must.
 
@@ -88,8 +88,6 @@ By following these guidelines and adopting the hacker mindset, developers can si
 
 - Yaworski, P. (2019). *Real-World Bug Hunting: A Field Guide to Web Hacking*. No Starch Press.  
 - Kohnfelder, Loren. (2022). *Designing Secure Software: A Guide for Developers*. No Starch Press.
-
-
 
 
 #
