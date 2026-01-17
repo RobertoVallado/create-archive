@@ -15,6 +15,7 @@ The process of verifying the identity of a user, system, or application.
 Commonly used in web applications to control access to protected resources.
 
 **References**
+
 * [Wikipedia: Authentication / computer Science ](https://en.wikipedia.org/wiki/Authentication#In_computer_science)
 
 ---
@@ -91,7 +92,6 @@ Often used in firewall configurations or email filters to ensure that only "know
 **References**
 
 * [Wikipedia: Paradigm](https://en.wikipedia.org/wiki/Paradigm)
-* Merriam-Webster Dictionary
 
 ---
 

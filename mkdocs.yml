@@ -1,7 +1,7 @@
-site_name: Dev & Security Journal
+site_name: Development & Security
 site_description: >-
   Source of insight, pointers on cybersecurity and clean code practices. 
-site_url: https://www.robertovallado.dev/
+site_url: https://www.archive.robertovallado.dev/
 site_author: Roberto Vallado
 
 nav:
