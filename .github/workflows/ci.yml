@@ -1,4 +1,4 @@
-name: Deploy MkDocs Knowledgebase Journal site to GitHub Pages
+name: Deploy MkDocs archiive site to GitHub Pages
 
 on:
   push:
