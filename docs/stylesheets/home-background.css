@@ -29,13 +29,18 @@
 /* Blockquote layout */
 .hero__quote {
     display: flex;
-    flex-direction: column;   /* ✅ STACK VERTICALLY */
-    align-items: left;
+    flex-direction: column;
+    align-items: flex-start; /* change from 'left' which is invalid */
     gap: 1rem;
     border-left: 4px solid rgba(255,255,255,0.6);
     background: rgba(0,0,0,0.35);
     backdrop-filter: blur(2px);
+
+    padding: 1rem;          /* ✅ Add space inside */
+    border-radius: .70rem;    /* ✅ Rounded corners */
+    max-width: 600px;       /* Optional: prevent it from stretching too much */
 }
+
 
 .hero__quote p {
     color: white;
