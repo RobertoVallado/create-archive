@@ -37,7 +37,7 @@
     backdrop-filter: blur(2px);
 
     padding: 1rem;          /* ✅ Add space inside */
-    border-radius: .70rem;    /* ✅ Rounded corners */
+    border-radius: 0rem .70rem .70rem 0rem;    /* ✅ Rounded corners */
     max-width: 600px;       /* Optional: prevent it from stretching too much */
 }
 
