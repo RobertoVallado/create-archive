@@ -1,6 +1,6 @@
 ---
 date:
-  created: 2026-1-20
+  created: 2026-01-20
 readtime: 1
 pin: true
 links:
